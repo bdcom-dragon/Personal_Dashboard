@@ -109,7 +109,6 @@
             line-height: 1.6;
             color: var(--text-primary);
             display: flex;
-            align-items: flex-start;
             padding-left: 24px;
             position: relative;
         }
@@ -118,11 +117,12 @@
         li::before {
             content: "•";
             color: var(--accent-blue);
-            font-size: 1.8rem;
+            font-size: 1.05rem;
             font-weight: bold;
             position: absolute;
             left: 0;
-            top: -4px;
+            top: 0;
+            line-height: 1.6;
         }
 
         /* === SECTION-SPECIFIC COLORS === */
